@@ -1,6 +1,6 @@
 import { useQuery, useMutation } from '@tanstack/react-query';
 import { queryKeys, invalidateQueries, queryClient } from '../Lib/queryClient';
-import { apiClient } from '../lib/apiClient';
+import { apiClient } from '../Lib/apiClient';
 
 // Hook để lấy system analytics
 export const useSystemAnalytics = () => {
