@@ -1,4 +1,4 @@
-import apiClient from '../Lib/apiClient';
+import apiClient from '../lib/apiClient';
 
 export const notificationService = {
   // Lấy danh sách thông báo

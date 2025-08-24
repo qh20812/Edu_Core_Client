@@ -1,5 +1,5 @@
 import { useQuery, useMutation } from '@tanstack/react-query';
-import { queryKeys, invalidateQueries } from '../Lib/queryClient';
+import { queryKeys, invalidateQueries } from '../lib/queryClient';
 import { systemService } from '../Services/system.service';
 
 /**
